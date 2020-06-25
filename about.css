@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+.logo-container h1 {
+    font-size: 48px;
+    margin: 10px 0px 0px 20px;
+    min-height: 5vh;
+}
+
+.logo-container a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.main {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.main h1 {
+    font-size: 64px;
+}
+
+.main p {
+    font-size: 48px;
+    margin-top: 50px;
+    line-height: 60px;
+}
+
+
+.rainbow-bar {
+    background-image: linear-gradient(to left, 
+    #86007D, 
+    #0000F9, 
+    #008018, 
+    #FFFF41, 
+    #FFA52C, 
+    #FF0018,
+    #9E6240,
+    #9E6240,
+    #000000,
+    #000000);
+
+    padding: 5px;
+
+  }
+
+.top-object {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 50%;
+}
+
+.btm-object {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 80%;
+}
+
+
+
+@media screen and (max-width: 400px) {
+
+    .main h1 {
+        font-size: 48px;
+    }
+
+    .main p {
+        font-size: 24px;
+        margin-top: 40px;
+        line-height: 50px;
+    }
+
+    .top-object {
+        height: 40%;
+        opacity: 20%;
+    }
+    .btm-object {
+        display: none;
+    }
+}

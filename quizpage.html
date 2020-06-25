@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="test-script.js"></script>
+    <link href="/quizpage.css" rel="stylesheet">
+    <title>privilege. - quiz</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <h1><a href="landing.html">priv &middot; i &middot; lege</a></h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="presentation">
+            <div class="visual">
+                <div id="privilegeBar">
+                    <div id="privilegeBarOutline"></div>
+                </div>
+            </div>
+            <div class="quiz-section">
+                <div class="" id="start-screen">
+                    <h1>Take this 7-question quiz to learn more about your privilege. </h1>
+                    <h3>
+                        Dictionary.com defines privilege as <i>a right, immunity, or benefit enjoyed only by a person beyond the advantages of most</i>
+                    </h3>
+                    <h3>Choose the most privileged answer and the bar will increase in size to represent your privilege.</h3>
+                </div>
+
+                <div class="hide" id="question-container">
+                    <div id="question-number">Question. |</div>
+                    <div id="question">Question</div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <button class="open-button" class="btn">Answer 1</button>
+                        <button class="open-button" class="btn">Answer 2</button>
+                        <button class="open-button" class="btn">Answer 3</button>
+                        <button class="open-button" class="btn">Answer 4</button>
+                    </div>
+                </div>
+        
+                
+                <!-- <button class="open-button" data-modal-target="#modal">Open Modal</button> -->
+                <div class="modal" id="modal">
+                    <div class="modal-header">
+                        <div class="title">Understand your privilege...</div>
+                        <button data-close-button class="close-button">&times</button>
+                    </div>
+                    <div class="modal-body" id="modal-body">
+                        Christians remain the largest religious group in the United States, representing 70% of the population. While Islam is 2nd largest religion in the world, Muslims are one of the most discriminated groups. Muslims have reported a variety of discrimination such as singling out during airport security, being called offensive names, or being treated with suspicion. It’s a privilege to practice your religion without fear of violence or threats. - Pew Research Center
+                    </div>
+                </div>
+
+                <div class="controls">
+                    <button id="start-btn" class="start-btn btn">Start the Quiz!</button>
+                    <button id="last-btn" class="last-btn btn hide">Last Question</button>
+                    <button id="next-btn" class="next-btn btn hide">Next Question</button>
+                    <button id="results-btn" class="results-btn btn hide"><a href="results.html">See Results!</a></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="overlay"></div>
+
+    <img class="top-object" src="top-object.svg" alt="">
+    <img class="btm-object" src="bottom-object.svg" alt="">
+</body>
+</html>

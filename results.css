@@ -1,0 +1,193 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    background: #F9F9F9;
+}
+
+.logo-container h1 {
+    font-size: 48px;
+    margin: 10px 0px 0px 20px;
+    min-height: 5vh;
+}
+
+.presentation {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    max-height: 90vh;
+}
+
+.visual {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    flex: 1;
+    position: relative;
+}
+
+
+#mostPrivilegedBar {
+    width: 6rem;
+    height: 45.5rem;
+    background-color: #5F4B8B;
+    border: 0.3rem solid #5F4B8B;
+    border-radius: 20px;
+}
+
+#mostPrivilegedOutline {
+    height: 45.5rem;
+    width: 6rem;
+    border: 0.01rem solid black;
+    border-radius: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#yourPrivilegeBar {
+    width: 6rem;
+    height: 1.5rem;
+    background-color: #98C3D4;
+    border: 0.3rem solid #98C3D4;
+    border-radius: 20px;
+
+}
+
+#yourPrivilegeOutline {
+    height: 1.5rem;
+    width: 6rem;
+    border: 0.01rem solid black;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+#privilegedBar {
+    width: 6rem;
+    height: 19.5rem;
+    background-color: #E69A8D;
+    border: 0.3rem solid #E69A8D;
+    border-radius: 20px;
+}
+
+#privilegeBarOutline {
+    height: 19.5rem;
+    width: 6rem;
+    border: 0.01rem solid black;
+    border-radius: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+.quiz-section {
+    flex: 1;
+    text-align: start;
+    overflow-y: scroll;
+}
+
+
+
+
+.quiz-section h1 {
+    font-size: 64px;
+    font-weight: 100;   
+}
+
+
+.quiz-section h3 {
+    margin-top: 10px;
+    font-size: 24px;
+    line-height: 50px;
+    font-weight: lighter;
+}
+
+#start-screen {
+    width: 100%;
+    height: 75%;
+}
+
+
+/* Graphics */
+
+.top-object {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 20%;
+}
+
+.btm-object {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 80%;
+}
+
+
+.hide {
+    display: none;
+}
+
+
+.logo-container a {
+    color: #000000;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 400px) {
+
+    .presentation {
+        flex-direction: column;
+    }
+
+    #mostPrivilegedBar,
+    #mostPrivilegedOutline {
+        height: 26.25rem;
+    }
+    
+    #yourPrivilegeBar,
+    #yourPrivilegeOutline {
+        height: 1.5rem;
+    }
+    
+    #privilegedBar,
+    #privilegeBarOutline {
+        height: 11.25rem;
+
+    }
+
+    .quiz-section {
+        flex: 1;
+        text-align: start;
+        overflow-y: none;
+    }
+
+    .quiz-section h1 {
+        font-size: 36px;
+        text-align: center; 
+        margin-top: 20px;
+        font-weight: bold;
+    }
+
+    .quiz-section h3 {
+        margin-top: 10px;
+        font-size: 20px;
+        line-height: 40px;
+        font-weight: lighter;
+    }
+
+    .top-object {
+        height: 40%;
+    }
+    .btm-object {
+        display: none;
+    }
+}
