@@ -8,7 +8,6 @@ body {
     font-family: 'Playfair Display', serif;
 }
 
-
 .landing-content {
     position: absolute;
     top: 50%;
@@ -35,8 +34,20 @@ body {
 }
 
 .cta a {
-    color: #FFFFFF;
-    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.about {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    letter-spacing: 10px;
+    color: #E69A8D;
 }
 
 .top-object {
@@ -56,7 +67,10 @@ body {
 }
 
 
-@media screen and (max-width: 400px) {
+/* iPhone 6/7/8 */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
     .landing-content {
         top: 50%;
         left: 50;
@@ -81,9 +95,47 @@ body {
 
     .top-object {
         height: 40%;
+        opacity: 20%;
     }
     .btm-object {
         bottom: 0%;
         width: 100%;
+        opacity: 30%;
+    }
+}
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) {
+    .landing-content {
+        top: 50%;
+        left: 50;
+        transform: translate(-50%, -50%);
+    }
+
+    .landing-content h1 {
+        font-size: 34px;
+    }
+
+    .landing-content p {
+        font-size: 24px;
+    }
+
+    .cta {
+        padding: 15px 25px;
+    }
+
+    .cta a {
+        font-size: 16px;
+    }
+
+    .top-object {
+        height: 40%;
+        opacity: 20%;
+    }
+    .btm-object {
+        bottom: 0%;
+        width: 100%;
+        opacity: 30%;
     }
 }
