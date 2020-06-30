@@ -39,7 +39,7 @@ const questions = [
       { text: 'American Indian or Alaska Native', correct: false },
       { text: 'Native Hawaiian or Other', correct: false },
     ],
-    fact: 'In 2015, even though African Americans and Hispanics represent 32% of the United States population, they represent 56% of the incarnated population - NAACP, Criminal Justice Fact Sheet',
+    fact: 'In 2015, even though African Americans and Hispanics represent 32% of the United States population, they represent 56% of the incarnated population. If Afircan Americans and Hispanics were incarcerated at the same rates as whites, the prison and jail population would DECLINE by ALMOST 40%! - NAACP, Criminal Justice Fact Sheet',
   },
   {
     question: 'What is your household income?',
