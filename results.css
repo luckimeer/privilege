@@ -147,12 +147,12 @@ and (max-device-width : 667px) {
     }
 
     .visual {
-        margin-top: 100px;
+        background-color: salmon;
     }
 
     #mostPrivilegedBar,
     #mostPrivilegedOutline {
-        height: 26.25rem;
+        height: 350px;
     }
     
     #yourPrivilegeBar,
@@ -162,7 +162,7 @@ and (max-device-width : 667px) {
     
     #privilegedBar,
     #privilegeBarOutline {
-        height: 11.25rem;
+        height: 150px;
 
     }
 
