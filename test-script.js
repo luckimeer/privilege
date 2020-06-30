@@ -1,4 +1,4 @@
-const startButton = document.getElementById('start-btn')
+const startButton = document.getElementById('start-btn');
 const nextButton = document.getElementById('next-btn')
 const resultsButton = document.getElementById('results-btn')
 const questionContainerElement = document.getElementById('question-container')
@@ -77,11 +77,11 @@ const questions = [
     question: 'What is your highest level of education?',
     answers: [
       { text: 'Some Education', correct: false },
-      { text: 'High School Education / GED', correct: false },
+      { text: 'HS Diploma / GED', correct: false },
       { text: 'Associates', correct: false },
       { text: 'Bachelors', correct: true },
       { text: 'Masters', correct: true },
-      { text: 'Professional/Doctorate', correct: true }
+      { text: 'Professional/PhD', correct: true }
     ],
     fact: 'In 2019, the median income for recent college graduates, between 22-27, was $44,000/yr compared to high school graduates of the same age, was $30,000/yr.  The earning gap continues to widen between college graduates and high school graduates - Pew Research Center, The Rising Cost of Not Going to College, 2014 & Zumbrun, Income for Recent Graduates the Highest in Over a Decade, WSJ',
   },

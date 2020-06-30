@@ -91,9 +91,6 @@ body {
     overflow-y: scroll;
 }
 
-
-
-
 .quiz-section h1 {
     font-size: 64px;
     font-weight: 100;   
@@ -112,23 +109,16 @@ body {
     height: 75%;
 }
 
+/* Action List */
+.action-list {
+    font-family: Helvetica, sans-serif
+}
+
 
 /* Graphics */
 
 .top-object {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: -1;
     opacity: 20%;
-}
-
-.btm-object {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-    opacity: 80%;
 }
 
 
@@ -142,10 +132,18 @@ body {
     text-decoration: none;
 }
 
-@media screen and (max-width: 400px) {
 
+
+/* iPhone 6/7/8 */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
     .presentation {
         flex-direction: column;
+    }
+
+    .logo-container h1 {
+        font-size: 36px;
     }
 
     #mostPrivilegedBar,
@@ -167,7 +165,7 @@ body {
     .quiz-section {
         flex: 1;
         text-align: start;
-        overflow-y: none;
+        overflow-y: visible;
     }
 
     .quiz-section h1 {

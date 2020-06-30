@@ -2,11 +2,9 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
-
-body {
     font-family: 'Playfair Display', serif;
 }
+
 
 .landing-content {
     position: absolute;
@@ -25,6 +23,7 @@ body {
     margin-top: 25px;
 }
 
+
 .cta {
     background: #E69A8D;
     margin-top: 50px;
@@ -39,6 +38,13 @@ body {
     letter-spacing: 2px;
 }
 
+.cta:hover {
+    cursor: pointer;
+    box-shadow: 0 6.4px 22.4px 0 rgba(230, 154, 141, 0.5);
+    transform: translateY(-1.6px);
+    transition: transform 150ms;
+}
+
 .about {
     position: absolute;
     top: 0;
@@ -48,21 +54,22 @@ body {
     text-decoration: none;
     letter-spacing: 10px;
     color: #E69A8D;
+    cursor: pointer;
 }
 
 .top-object {
     position: absolute;
     top: 0;
     right: 0;
-    z-index: -1;
     opacity: 50%;
+    z-index: -1;
 }
 
 .btm-object {
     position: absolute;
     bottom: 0;
     left: 0;
-    opacity: 80%;
+    opacity: 60%;
     z-index: -1;
 }
 
