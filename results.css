@@ -146,6 +146,10 @@ and (max-device-width : 667px) {
         font-size: 36px;
     }
 
+    .visual {
+        margin-top: 100px;
+    }
+
     #mostPrivilegedBar,
     #mostPrivilegedOutline {
         height: 26.25rem;
