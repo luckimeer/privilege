@@ -23,16 +23,12 @@
     margin-top: 25px;
 }
 
-
 .cta {
     background: #E69A8D;
     margin-top: 50px;
     padding: 20px 35px 20px 35px;
     border: none;
     border-radius: 20px;
-}
-
-.cta a {
     color: #ffffff;
     text-decoration: none;
     letter-spacing: 2px;
@@ -78,42 +74,6 @@
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) {
-    .landing-content {
-        top: 50%;
-        left: 50;
-        transform: translate(-50%, -50%);
-    }
-
-    .landing-content h1 {
-        font-size: 34px;
-    }
-
-    .landing-content p {
-        font-size: 24px;
-    }
-
-    .cta {
-        padding: 15px 25px;
-    }
-
-    .cta a {
-        font-size: 16px;
-    }
-
-    .top-object {
-        height: 40%;
-        opacity: 20%;
-    }
-    .btm-object {
-        bottom: 0%;
-        width: 100%;
-        opacity: 30%;
-    }
-}
-
-@media only screen 
-and (min-device-width : 414px) 
-and (max-device-width : 736px) {
     .landing-content {
         top: 50%;
         left: 50;
