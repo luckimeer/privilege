@@ -43,7 +43,7 @@ body {
 
 #yourPrivilegeBar {
     width: 6rem;
-    height: 1.5rem;
+    height: 1rem;
     background-color: #5F4B8B;
     border: 0.3rem solid #5F4B8B;
     border-radius: 20px;
@@ -51,7 +51,7 @@ body {
 }
 
 #yourPrivilegeOutline {
-    height: 1.5rem;
+    height: 1rem;
     width: 6rem;
     border: 0.01rem solid black;
     border-radius: 20px;
@@ -143,22 +143,21 @@ and (max-device-width : 667px) {
         margin-top: 400px;
     }
 
-    #mostPrivilegedBar,
+/*     #mostPrivilegedBar,
     #mostPrivilegedOutline {
-        height: 350px;
+        
     }
     
     #yourPrivilegeBar,
     #yourPrivilegeOutline {
-        height: 1.5rem;
     }
     
     #privilegedBar,
     #privilegeBarOutline {
-        height: 150px;
+        height: 18rem;
 
     }
-
+ */
     .quiz-section {
         flex: 1;
         text-align: start;
