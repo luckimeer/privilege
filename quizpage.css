@@ -74,14 +74,13 @@ body {
     font-weight: bold;
 }
 
-.modal-header .close-button {
+/* .modal-header .close-button {
     cursor: pointer;
     border: none;
     outline: none;
     background: none;
     font-size: 30px;
-
-}
+} */
 
 .modal-body {
     padding: 10px 15px;
