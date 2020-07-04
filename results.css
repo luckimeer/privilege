@@ -143,21 +143,22 @@ and (max-device-width : 667px) {
         margin-top: 400px;
     }
 
-/*     #mostPrivilegedBar,
+    #mostPrivilegedBar,
     #mostPrivilegedOutline {
-        
+        height: 500px;
     }
     
     #yourPrivilegeBar,
     #yourPrivilegeOutline {
+        height: 0px;
     }
     
     #privilegedBar,
     #privilegeBarOutline {
-        height: 18rem;
+        height: 0px;
 
     }
- */
+
     .quiz-section {
         flex: 1;
         text-align: start;
