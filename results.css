@@ -150,7 +150,7 @@ and (max-device-width : 667px) {
     
     #yourPrivilegeBar,
     #yourPrivilegeOutline {
-        height: 0px;
+        height: px;
     }
     
     #privilegedBar,
