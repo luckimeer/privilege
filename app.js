@@ -231,9 +231,3 @@ incrementScore = num => {
   localStorage.setItem("mostRecentScore", score);
 }
 
-
-
-// TODO: If you select "correct" answer, then select "incorrect" answer, the bar still displays as if the correct answer is chosen
-// TODO: add a timer so once an answer is selected, it moves to the next response
-// TODO: every tap of the correct answer, the bar will increase.
-// TODO: Privilege bar goes too high
