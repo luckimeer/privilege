@@ -1,3 +1,4 @@
+// DOM Objects
 const startButton = document.getElementById('start-btn');
 const nextButton = document.getElementById('next-btn')
 const resultsButton = document.getElementById('results-btn')
@@ -8,12 +9,13 @@ const answerButtonsElement = document.getElementById('answer-buttons')
 const startScreenElement = document.getElementById('start-screen')
 const privilegeBarElement = document.getElementById('privilegeBar')
 const privilegeOutlineElement = document.getElementById('privilegeBarOutline')
-
 const modalTextElement = document.getElementById('modal-body')
 const openModalButtons = document.querySelectorAll('[data-modal-target]')
 const closeModalButtons = document.querySelectorAll('[data-close-button]')
 const overlay = document.getElementById('overlay')
 
+
+// Constant and Variables
 const numCorrect = 1;
 let score = 0;
 
@@ -98,9 +100,10 @@ const questions = [
   }
 ]
 
-
 let shuffledQuestions, currentQuestionIndex
 
+
+// Event Listeners
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
   currentQuestionIndex++
@@ -127,6 +130,8 @@ openModalButtons.forEach(button => {
     closeModal(modal)
   })
 }) */
+
+// Functions
 
 function openModal(modal) {
   if(modal == null) return
