@@ -24,10 +24,10 @@ const questions = [
     question: 'What is your sex?',
     answers: [
       { text: 'Male', correct: true },
-      { text: 'Femxle', correct: false },
+      { text: 'Female', correct: false },
       { text: 'Intersex', correct: false }
     ],
-    fact: 'Womxn may almost half of the workforce, yet they make $0.82 to the dollar as their male counterparts. It won’t be until 2059, for womxn to reach pay equity. If you’re a Black womxn, 2130 and if you’re a Hispanic womxn, 2224. It\'s a privilege to not question whether your salary is comparable to your colleagures based on sex and race. - Institute for Women’s Policy Research',
+    fact: 'Women make up almost half of the workforce, yet they make $0.82 to the dollar as their male counterparts. It won’t be until 2059, for women to reach pay equity. If you’re a Black women, 2130 and if you’re a Hispanic women, 2224. It\'s a privilege to not question whether your salary is comparable to your colleagures based on sex and race. - Institute for Women’s Policy Research',
   },
   {
     question: 'What is your race??',
@@ -122,7 +122,7 @@ openModalButtons.forEach(button => {
   modals.forEach(modal => {
     closeModal(modal)
   })
-}) */
+})
 
 /* closeModalButtons.forEach(button => {
   button.addEventListener('click', () => {
@@ -182,9 +182,17 @@ function showQuestion(question) {
     if (answer.correct) {
       button.dataset.correct = answer.correct
     }
+
+    /* if (answer.correct == false) {
+      button.disabled=true;
+      console.log('works')
+    } */
+
+    
     // Adding Event Listener to answer button
     button.addEventListener('click', selectAnswer)
     button.setAttribute('data-modal-target', '#modal')
+    
     // Add answer options to quiz
     answerButtonsElement.appendChild(button)
     
